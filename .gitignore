@@ -1,0 +1,46 @@
+# 🛑 Ne pas pusher les dépendances
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# 🛑 Empêcher les fichiers de build
+dist/
+build/
+.tmp/
+out/
+
+# 🛑 Empêcher les fichiers de logs et cache
+logs/
+*.log
+debug.log
+error.log
+coverage/
+.nyc_output/
+
+# 🛑 Empêcher les fichiers d'environnement sensibles
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 🛑 Empêcher les fichiers système / éditeur
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# 🛑 Empêcher les fichiers Docker temporaires
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# 🛑 Empêcher les dépendances Python (si besoin)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
